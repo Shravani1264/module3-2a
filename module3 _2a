@@ -1,0 +1,77 @@
+def string_length(str1):
+    count = 0
+    for char in str1:
+        count += 1
+    return count
+print(string_length('gitam cancelled exam'))
+
+
+
+s="python"#count the no of characters in a string.....
+count=0
+for x in s:
+	count=count+1
+print("char ofstring:")
+print(count)
+
+
+
+
+s1=input("enter a s1 string: ")#swap of two characters from two strings
+s2=input("enter a s2 string: ")
+news1=s2[:2]+s1[2:]
+news2=s1[:2]+s2[2:]
+print(news1 , news2)
+
+
+
+
+list=['gf\ng','i\ns','b\np']
+print("the original list is:"+str(list))
+res=[]
+for i in list:
+    res.append(i.replace("\n",""))
+print("after removing a newline: "+str(res))
+
+
+
+
+s=input(" enter a string:")#display the inputback in upper and lower case....
+print(s)
+print(s.upper())
+print(s.lower())
+
+
+
+s="hello every one hello"#count occurance of a sub string in a string
+print()
+print(s.count("hello"))
+print()
+
+
+s="hellooo"#deletion of a charcter
+print(s)
+print(s.replace("l"," "))
+
+
+
+s=input("enter a string:")#string entered by user using loop
+for i in s:
+	print(i,end='\n')
+	
+	
+	
+	x="refrigirater"#finding length of string without using len.....
+count=0
+for i in x:
+	count=count+1
+print("lenght of x:")
+print(count)
+
+
+
+
+
+ 
+
+ 
